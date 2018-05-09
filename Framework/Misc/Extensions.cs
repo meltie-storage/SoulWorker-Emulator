@@ -3,7 +3,7 @@
 
 using System;
 
-namespace SoulWorker.Shared.Misc
+namespace SoulWorker.Framework.Misc
 {
     public static class Extensions
     {

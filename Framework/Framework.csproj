@@ -7,8 +7,8 @@
     <ProjectGuid>{32F331E6-1F98-4010-A2B0-26D908117EC9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SoulWorker.Shared</RootNamespace>
-    <AssemblyName>SoulWorker.Shared</AssemblyName>
+    <RootNamespace>SoulWorker.Framework</RootNamespace>
+    <AssemblyName>SoulWorker.Framework</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

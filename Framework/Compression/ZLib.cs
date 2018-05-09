@@ -2,9 +2,9 @@
 
 using System.IO;
 using System.IO.Compression;
-using SoulWorker.Shared.Misc;
+using SoulWorker.Framework.Misc;
 
-namespace SoulWorker.Shared.Compression
+namespace SoulWorker.Framework.Compression
 {
     public static class ZLib
     {

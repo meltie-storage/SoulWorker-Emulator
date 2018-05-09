@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoulWorker.Shared.Database
+namespace SoulWorker.Framework.Database
 {
     class DatabaseSettings
     {
