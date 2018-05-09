@@ -10,7 +10,7 @@ namespace SoulWorker.Framework.Configuration
 {
     public class Config
     {
-        string[] ConfigContent;
+        readonly string[] ConfigContent;
         public string ConfigFile { get; set; }
 
         public Config(string config)

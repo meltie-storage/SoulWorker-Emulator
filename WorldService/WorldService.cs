@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SoulWorker.WorldService
 {
-    class WorldService
+    static class WorldService
     {
         static void Main(string[] args)
         {

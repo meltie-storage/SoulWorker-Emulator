@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SoulWorker.LoginService
 {
-    class LoginService
+    static class LoginService
     {
         static void Main(string[] args)
         {
