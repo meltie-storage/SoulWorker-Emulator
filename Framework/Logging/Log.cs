@@ -6,7 +6,7 @@ using DefaultConsole = System.Console;
 
 namespace SoulWorker.Framework.Logging
 {
-    public class Log
+    static public class Log
     {
         public static string ServerType { get; set; }
 
@@ -22,7 +22,7 @@ namespace SoulWorker.Framework.Logging
 
         static void SetLogger(LogType type, string text, params object[] args)
         {
-            DefaultConsole.OutputEncoding = UTF8Encoding.UTF8;
+            DefaultConsole.OutputEncoding = Encoding.UTF8;
 
             switch (type)
             {

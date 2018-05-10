@@ -44,17 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\CommandAttribute.cs" />
+    <Compile Include="Commands\CommandManager.cs" />
+    <Compile Include="Commands\CommandParser.cs" />
     <Compile Include="Compression\ZLib.cs" />
     <Compile Include="Configuration\Config.cs" />
+    <Compile Include="Database\Database.cs" />
     <Compile Include="Database\MySQLBase.cs" />
     <Compile Include="Database\SQLResult.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Globals\Opcodes.cs" />
     <Compile Include="Logging\Log.cs" />
     <Compile Include="Logging\LogTypes.cs" />
     <Compile Include="Misc\Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
