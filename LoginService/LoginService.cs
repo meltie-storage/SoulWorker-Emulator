@@ -6,6 +6,7 @@ using System.Threading;
 using SoulWorker.Framework.Configuration;
 using SoulWorker.Framework.Database;
 using SoulWorker.Framework.Logging;
+using SoulWorker.LoginService.Network;
 
 namespace SoulWorker.LoginService
 {
@@ -15,6 +16,8 @@ namespace SoulWorker.LoginService
         {
             Log.Message();
             Log.Message(LogType.Normal, "Starting SoulWorker Authentication Service...");
+
+            LoginClass.servers = new LoginNetwork();
 
             // Service Function Placeholder
 
